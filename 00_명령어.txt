@@ -1,0 +1,8 @@
+도커 이미지 빌드
+docker build -t naisksh/fastapi-server:1.1 .
+
+도커 이미지를 컨테이너로 실행
+docker run --env-file .env -p 80:8000 --name fastapi-server --rm -d naisksh/fastapi-server:1.1
+
+도커 이미지를 허브에 올리기
+docker push naisksh/fastapi-server:1.1
