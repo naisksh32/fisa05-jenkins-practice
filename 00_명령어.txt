@@ -6,3 +6,5 @@ docker run --env-file .env -p 80:8000 --name fastapi-server --rm -d naisksh/fast
 
 도커 이미지를 허브에 올리기
 docker push naisksh/fastapi-server:1.1
+
+새로 변경한 사항
