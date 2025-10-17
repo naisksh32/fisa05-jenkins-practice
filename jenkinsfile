@@ -6,7 +6,7 @@ node {
 
         stage('Pull') {
             try {
-                git branch: 'main', url: 'https://github.com/naisksh32/fisa05-jenkins-practice.git'
+                git branch: 'main', url: 'https://github.com/naisksh32/fisa05-jenkins-practice'
                 echo "Stage Pull success"
             } catch (Exception e) {
                 echo "Stage Pull failed"
